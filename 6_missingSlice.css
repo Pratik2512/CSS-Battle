@@ -1,0 +1,37 @@
+<div class="boss">
+  <div class="top-left"></div>
+  <div class="bottom-left"></div>
+  <div class="top-right"></div>
+</div>
+
+<style>
+  body{
+    background: #E3516E;
+  }
+  .boss{
+    position: absolute;
+	top: 50;
+    left: 100;
+  }
+  .top-left{
+    background: #51B5A9;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 100px;
+  }
+  .bottom-left{
+    background: #F7F3D7;
+    height: 100px;
+    width: 100px;
+    border-bottom-left-radius: 100px;
+  } 
+  .top-right{
+    background: #FADE8B;
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 100px;
+    position: relative;
+    top: -200px;
+    left: 100px;
+  }
+</style>
