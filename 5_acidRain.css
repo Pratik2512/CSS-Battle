@@ -1,0 +1,36 @@
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+ 
+<style>
+  body{
+    display: flex;
+    background: #0B2429;
+  }
+  #one{
+    background: #998235;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top:81px;
+    margin-left:133px;
+    border-radius: 60px 0px 60px 60px;
+  }
+  #two{
+    background: #F3AC3C;
+    width: 115px;
+    height: 120px;
+    position: relative;
+    margin-top: 142px;
+    margin-left: -175px;
+    border-radius: 57px 0px 57px 57px;     
+  }
+  #three{
+    background: #F3AC3C;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 22px 1px;
+  }
+  
+</style>
