@@ -1,0 +1,14 @@
+<div></div>
+<style>
+  body{
+    background: #0B2429;
+  }
+  div {
+    width: 100px;
+    height: 750px;
+    background: #F3AC3C;
+    transform: rotate(45deg);
+    position: fixed;
+    top: -364; 
+  }
+</style>
