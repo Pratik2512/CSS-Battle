@@ -1,0 +1,72 @@
+<div>
+  <div class="circle_one"></div>
+  <div class="circle_two"></div>
+  <div class="circle_three"></div>
+  <div class="circle_four"></div>
+  <div class="circle_five"></div>
+  <div class="circle_six"></div>
+</div>
+<style>
+  body{
+    background: #191210;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle_one{
+    border: 20px solid #ECA03D;
+    background: ##191210;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80;
+    left: 130;
+  }
+  .circle_two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #84271C;
+    position: relative;
+    top: 80;
+    left: 25;
+  }
+  .circle_three{
+    height: 50px;
+    width: 100px;
+    border-radius: 100px 100px 0px 0px;
+    background: #ECA03D;
+    position: relative;
+    top: 5;
+    left: 100;
+  }
+  .circle_four{
+    height: 50px;
+    width: 100px;
+    border-radius: 0px 0px 100px 100px;
+    background: #ECA03D;
+    position: relative;
+    top: 5;
+    left: -100;
+  }
+  .circle_five{
+    height: 30px;
+    width: 60px;
+    background: #191210;
+    border-radius: 60px 60px 0px 0px;
+    position: relative;
+    top: -75;
+    right: -120;
+  }
+  .circle_six{
+    height: 30px;
+    width: 60px;
+    background: #191210;
+    border-radius: 0px 0px 60px 60px;
+    position: relative;
+    top: -75;
+    right: 80;
+  }
+  
+</style>
