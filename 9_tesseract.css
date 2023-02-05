@@ -1,0 +1,37 @@
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<style>
+  body{
+    background:#222730;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .one{
+    height: 150px;
+    width: 500px;
+    background: #4CAAB3;
+  }
+  .two{
+    height: 150px;
+    width: 150px;
+    background: #4CAAB3;
+    position: absolute;
+    top: 25;
+    left: 75;
+    border: 50px solid #222730;
+    transform: rotate(45deg);  
+  }
+  .three{
+    height: 50px;
+    width: 50px;
+    background: #393E46;
+    position: absolute;
+    border-radius: 30px;
+  }
+ 
+  
+</style>
