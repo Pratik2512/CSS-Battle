@@ -1,0 +1,36 @@
+<div class="main">
+  <div id="one"></div>
+  <div id="two"></div>
+</div>
+<div class="overlap"></div>
+<style>
+  body{
+    background:#09042A;
+  }
+  div{
+    position: absolute;
+  }
+  .main div {
+    width: 150px;
+    height: 150px;
+    background: #7B3F61;
+    border-radius: 50%;
+  }
+  .main{
+    top: 75px;
+    left: 75px;
+  }
+  #two{
+    background: #E78481;
+    left: 100px;
+  }
+  .overlap{
+    top: 110px;
+    left: 160px;
+    height: 80px;
+    width: 80px;
+    background: #09042A;
+    transform: rotate(45deg);
+    border-radius: 0px 76px 0px 76px;
+  }
+</style>
