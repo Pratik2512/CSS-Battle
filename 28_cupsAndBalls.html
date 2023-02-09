@@ -1,0 +1,42 @@
+<div class="semi">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div></div>
+<div class="main">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+   body{
+    background: #1A4341;
+  }
+  div {
+    height: 50px;
+    width: 50px;
+    position: relative; 
+    top: 46px;
+    left: 31px;
+    display: grid;
+    align-items: center;
+    grid: 30px/auto auto auto auto;
+    grid-gap: 20px;
+  }
+  .semi > div:nth-child(even), .main > div:nth-child(odd){
+    background: #F3AC3C;
+  }
+  .semi > div:nth-child(1), .semi > div:nth-child(4), .main > div:nth-child(2), .main > div:nth-child(3){
+     border-radius: 50%;
+  }
+  .semi > div, .main > div{
+    border-radius: 50px 50px 0 0;
+    background: #998235;
+  }
+  .main > div{
+    top: 66px;
+    transform: rotate(180deg);
+  }
+ 
+</style>
