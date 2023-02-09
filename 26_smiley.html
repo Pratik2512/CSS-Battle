@@ -1,0 +1,31 @@
+<div class="main">
+  <div id="one"></div>
+  <div id="two"></div>
+  <div id="three"></div>
+</div>
+<style>
+   body{
+    background: #6592CF;
+  }
+ .main > div{
+    height: 40px;
+    width:80px;
+    border: solid 20px #060F55;
+    border-radius: 0 0 100px 100px;
+    border-top: 0;
+    position: absolute;
+  }
+  #one {
+    transform: translateX(110%);
+    bottom: 40px;
+  } 
+  #two, #three{
+    transform: rotate(180deg);
+    top: 40px;
+    left: 40px;
+  }
+  #three{
+    left: 240px;
+    
+  }
+</style>
