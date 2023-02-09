@@ -1,0 +1,51 @@
+<div class="baap">
+    <div class="semi">
+      <div id="one"></div>
+      <div id="two"></div>
+    </div>
+  <div class="main">
+    <div id="three"></div>
+    <div id="four"></div>
+  </div>
+</div>
+<style>
+   body{
+    background: #998235;
+  }
+  div {
+    position: relative; 
+    display: grid;
+    justify-content: center;
+    grid: auto/auto auto;
+    grid-gap: 40px;
+  }
+  .baap{
+    height: 180px;
+    width: 180px;
+    top: 52px;
+    left: 102px;
+  }
+  .semi > div{
+    background: #1A4341;
+    height: 100px;
+    width: 80px;
+    left: 130px;
+    border-radius: 0 49px;
+  }
+  .semi > #two{
+    border-radius: 49px 0;
+    top: 80px;
+    left: 110px;
+  }
+  .main > div{
+    background: #F3AC3C;
+    height: 60px;
+    width: 80px;
+    left: -10px;
+    border-radius: 50px 0;
+  }
+  .main > #four{
+    border-radius: 0 50px;
+    top: 120;
+    left: -230;
+  }
