@@ -1,0 +1,49 @@
+<div class="main">
+  <div id="one"></div>
+  <div id="two"></div>
+  <div id="three"></div>
+  <div id="four"></div>
+</div>
+<style>
+   body{
+    background: #222;
+  }
+  div {
+    width: 31px;
+    height: 100px;
+    position: relative;
+  }
+  .main > #one, #two{
+    background: #F2994A; 
+  }
+  .main > #three, #four{
+    background: #2D9CDB; 
+  }
+  #one{   
+    left: 146px;
+    top: 50px;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 10px;
+  }
+  #two{
+    height: 60px;
+    left: 146px;
+    top: 19px;
+    transform: rotate(-45deg);
+    border-radius: 0 0 5px 0;
+  }
+  #three{
+    left: 205px;
+    top: -27px;
+    transform: rotate(45deg);
+    border-radius: 0 10px 0 0;
+  }
+  #four{
+    height: 60px;
+    left: 204px;
+    top: -157px;
+    transform: rotate(-45deg);
+    border-radius: 5px 0 0 0;
+  }
+</style>
+
