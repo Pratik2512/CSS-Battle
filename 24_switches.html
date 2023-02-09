@@ -1,0 +1,43 @@
+<div class="semi">
+  	<div id="one"></div>
+  	<div id="two"></div>
+  </div>
+<div class="main">
+  <div id="three"></div>
+  <div id="four"></div>
+</div>
+<style>
+   body{
+    background: #62306D;
+  }
+  div {
+    position: relative; 
+    display: grid;
+    justify-content: center;
+    grid: 20px 40px/auto auto ;
+    grid-gap: 40px;
+  }
+  .semi > div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px 0 0;
+    background: #AA445F;
+  }
+  .semi{
+    top: 42px;
+  }
+  .main > div{
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #F7EC7D;
+    top: -8.4px;
+  }
+  #two{
+    transform: rotate(180deg);
+    background: #E38F66;
+    top: 100px;
+  }
+</style>
+
