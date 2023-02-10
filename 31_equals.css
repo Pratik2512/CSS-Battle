@@ -1,0 +1,28 @@
+<div class="main">
+  <div id="one"></div>
+  <div id="two"></div>
+</div>
+<style>
+  body{
+    background: #AA445F;
+  }
+  div {
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+    border-radius: 200px 0 0 200px;
+    display: grid;
+    grid: auto/ auto auto;
+    grid-gap: 50px;
+    position: relative;
+  }
+  .main{
+    top: 42;
+    left: 67;
+  }
+  #two{
+    transform: rotate(180deg);
+    background: #E38F66;
+  }
+</style>
+
