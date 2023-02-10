@@ -1,0 +1,37 @@
+<div class="main">
+  <div id="one"></div>
+  <div id="two"></div>
+</div>
+<div class="center">
+<style>
+  div {
+    width: 50px;
+    height: 200px;
+    display: grid;
+    grid: auto/ auto auto;
+    grid-gap: 50px;
+    position: relative;
+  }
+  .main > div {
+    top: 42;
+    left: 167;
+  }
+  #one{
+    background: #A3A368;
+    transform: rotate(45deg);
+  }
+  #two{
+    left: 67;
+    transform: rotate(-45deg);
+    background: #F3AC3C;
+  }
+  .center{
+    width: 50px;
+    height: 50px;
+    background: #FBE18C;
+    transform: rotate(45deg);
+    top: -83;
+    left: 167;
+  }
+</style>
+
