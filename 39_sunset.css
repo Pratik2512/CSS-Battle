@@ -1,0 +1,48 @@
+<div>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<style>
+  body{
+    background: #1A4341;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  div:after, div:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  div:before{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background: #998235;
+    border-radius: 50%;
+  }
+  div:after{
+    width: 200px;
+    height: 140px;
+    background: #1A4341;
+  }
+  span{
+    background: #F3AC3C;
+    height: 20px;
+    display: block;
+    margin: 10px 0;
+    z-index: 10;
+  } 
+</style>
