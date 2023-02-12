@@ -1,0 +1,52 @@
+<div>
+  <span></span>
+</div>
+<style>
+  body{
+    background: #293462;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  div:before{
+    content: '';
+    width: 100px;
+    height: 150px;
+    background: #FE5F55;
+    position: absolute;
+    left: 200;
+    top: 0;
+  }
+div:after{
+    content:'';
+    width: 150px;
+    height: 100px;
+    background: #FE5F55;
+    position: absolute;
+    left: 0;
+    top: 200;
+  }
+  span{
+    height: 100px;
+    width: 50px;
+    background: #A64942;
+    position: absolute;
+    left: 150;
+    top: 200;
+  }
+  span:before{
+    content:'';
+    height: 50px;
+    width: 100px;
+    background: #A64942;
+    position: absolute;
+    left: 50;
+    top: -50;
+  }
+</style>
+
