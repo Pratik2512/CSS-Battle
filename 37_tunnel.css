@@ -1,0 +1,40 @@
+<div>
+	<div a></div>
+ 	<div b></div>
+  	<div c></div>
+</div>
+<style>
+  body{
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  div {
+	position: absolute;
+  }
+  [a]{
+    top: 17;
+    left: -125;
+    width: 250px;
+    height: 250px;
+    transform: rotateZ(0deg);
+    background: #243D83;
+  }
+  [b]{
+    top: 67;
+    left: -75;
+    width: 150px;
+    height: 150px;
+    transform: rotateZ(15deg);
+    background: #6592CF;
+  }
+  [c]{
+    top: 105;
+    left: -37;
+    width: 75px;
+    height: 75px;
+    transform: rotateZ(30deg);
+    background: #243D83;
+  }
+</style>
